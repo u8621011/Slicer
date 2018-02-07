@@ -65,6 +65,11 @@ public slots:
   /// Set the MRML node of interest
   void setMRMLVolumeNode(vtkMRMLNode* node);
 
+  /// Set the Preset node
+  void setPresetNode(vtkMRMLNode* node);
+
+  void setVisibilityChecked(bool checked);
+
   void setMRMLDisplayNode(vtkMRMLNode* node);
 
   void setMRMLROINode(vtkMRMLNode* node);
