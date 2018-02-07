@@ -321,6 +321,20 @@ void qSlicerVolumeRenderingModuleWidget::setMRMLVolumeNode(vtkMRMLNode* volumeNo
 }
 
 // --------------------------------------------------------------------------
+void qSlicerVolumeRenderingModuleWidget::setPresetNode(vtkMRMLNode* volumeNode)
+{
+  Q_D(qSlicerVolumeRenderingModuleWidget);
+  d->PresetsNodeComboBox->setCurrentNode(volumeNode);
+}
+
+// --------------------------------------------------------------------------
+void qSlicerVolumeRenderingModuleWidget::setVisibilityChecked(bool checked)
+{
+  Q_D(qSlicerVolumeRenderingModuleWidget);
+  d->VisibilityCheckBox->setChecked(checked);
+}
+
+// --------------------------------------------------------------------------
 void qSlicerVolumeRenderingModuleWidget::onCurrentMRMLVolumeNodeChanged(vtkMRMLNode* node)
 {
   Q_D(qSlicerVolumeRenderingModuleWidget);
