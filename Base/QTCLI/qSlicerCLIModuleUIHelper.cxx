@@ -17,6 +17,7 @@
 #include <QRadioButton>
 #include <QSpinBox>
 #include <QToolButton>
+#include <QCoreApplication>
 #include <QSizePolicy>
 
 // CTK includes
@@ -184,7 +185,7 @@ public:
   QWidget* createPointTagWidget(const ModuleParameter& moduleParameter);
   QWidget* createPointFileTagWidget(const ModuleParameter& moduleParameter);
   QWidget* createRegionTagWidget(const ModuleParameter& moduleParameter);
-  QWidget* createImageTagWidget(const ModuleParameter& moduleParameter);
+  QWidget* createImageTagWidget(const QString moduleName, const ModuleParameter& moduleParameter);
   QWidget* createGeometryTagWidget(const ModuleParameter& moduleParameter);
   QWidget* createTableTagWidget(const ModuleParameter& moduleParameter);
   QWidget* createTransformTagWidget(const ModuleParameter& moduleParameter);
@@ -623,7 +624,7 @@ QWidget* qSlicerCLIModuleUIHelperPrivate::createRegionTagWidget(const ModulePara
 }
 
 //-----------------------------------------------------------------------------
-QWidget* qSlicerCLIModuleUIHelperPrivate::createImageTagWidget(const ModuleParameter& moduleParameter)
+QWidget* qSlicerCLIModuleUIHelperPrivate::createImageTagWidget(const QString moduleName, const ModuleParameter& moduleParameter)
 {
   QString channel = QString::fromStdString(moduleParameter.GetChannel());
   if (channel != "input" && channel != "output")
@@ -664,6 +665,7 @@ QWidget* qSlicerCLIModuleUIHelperPrivate::createImageTagWidget(const ModuleParam
 
   // TODO - title + " Volume"
 
+  QString lbl = QCoreApplication::translate(moduleName.toLatin1(), moduleParameter.GetLabel().c_str());
   QString imageLabel = QString::fromStdString(moduleParameter.GetLabel());
   QString imageName = QString::fromStdString(moduleParameter.GetName());
 
@@ -682,13 +684,14 @@ QWidget* qSlicerCLIModuleUIHelperPrivate::createImageTagWidget(const ModuleParam
   // created node.
   widget->setAddEnabled(channel != "input");
   widget->setRenameEnabled(true);
-  widget->setBaseName(imageLabel);
   widget->setMRMLScene(this->CLIModuleWidget->mrmlScene());
 
   QObject::connect(this->CLIModuleWidget, SIGNAL(mrmlSceneChanged(vtkMRMLScene*)),
                    widget, SLOT(setMRMLScene(vtkMRMLScene*)));
 
-  INSTANCIATE_WIDGET_VALUE_WRAPPER(Image, imageName, imageLabel, widget);
+  INSTANCIATE_WIDGET_VALUE_WRAPPER(Image, imageName, lbl, widget);
+
+  widget->setBaseName(lbl);
 
   return widget;
 }
@@ -992,7 +995,7 @@ qSlicerCLIModuleUIHelper::~qSlicerCLIModuleUIHelper()
 }
 
 //-----------------------------------------------------------------------------
-QWidget* qSlicerCLIModuleUIHelper::createTagWidget(const ModuleParameter& moduleParameter)
+QWidget* qSlicerCLIModuleUIHelper::createTagWidget(const QString moduleName, const ModuleParameter& moduleParameter)
 {
   Q_D(qSlicerCLIModuleUIHelper);
 
@@ -1038,7 +1041,7 @@ QWidget* qSlicerCLIModuleUIHelper::createTagWidget(const ModuleParameter& module
     }
   else if (moduleParameter.GetTag() == "image")
     {
-    widget = d->createImageTagWidget(moduleParameter);
+    widget = d->createImageTagWidget(moduleName, moduleParameter);
     }
   else if (moduleParameter.GetTag() == "geometry")
     {
@@ -1074,7 +1077,8 @@ QWidget* qSlicerCLIModuleUIHelper::createTagWidget(const ModuleParameter& module
 
   if (widget)
     {
-    QString description = QString::fromStdString(moduleParameter.GetDescription());
+    QString description = QCoreApplication::translate(moduleName.toLatin1(), moduleParameter.GetDescription().c_str());
+
     widget->setToolTip(description);
     QString widgetName = QString::fromStdString(moduleParameter.GetName());
     widget->setObjectName(widgetName);

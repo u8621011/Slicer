@@ -112,7 +112,7 @@ public:
   /// The caller is responsible to delete the widget.
   /// Note also that if the widget is added to a layout, Qt will
   /// be responsible to delete the widget.
-  QWidget* createTagWidget(const ModuleParameter& moduleParameter);
+  QWidget* createTagWidget(const QString moduleName, const ModuleParameter& moduleParameter);
 
   ///
   /// Update \a commandLineModuleNode properties using value entered from the UI
