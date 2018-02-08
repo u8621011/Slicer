@@ -81,6 +81,11 @@ void qSlicerCLIModuleWidgetPrivate::setupUi(qSlicerWidget* widget)
     this->logic()->GetDefaultModuleDescription().GetTitle());
   this->ModuleCollapsibleButton->setText(title);
 
+  QString type = QString::fromStdString(
+    this->logic()->GetDefaultModuleDescription().GetType());
+  qSlicerAbstractCoreModule* coreModule = const_cast<qSlicerAbstractCoreModule*>(q->module());
+
+
   this->MRMLCommandLineModuleNodeSelector->setBaseName(title);
   /// Use the title of the CLI to filter all the command line module node
   /// It is not very robust but there shouldn't be twice the same title.
@@ -289,14 +294,17 @@ void qSlicerCLIModuleWidgetPrivate::addParameter(QFormLayout* _layout,
                                                const ModuleParameter& moduleParameter)
 {
   Q_ASSERT(_layout);
+  Q_Q(qSlicerCLIModuleWidget);
 
   if (moduleParameter.GetHidden() == "true")
     {
     return;
     }
 
-  QString _label = QString::fromStdString(moduleParameter.GetLabel());
-  QString description = QString::fromStdString(moduleParameter.GetDescription());
+  qSlicerAbstractCoreModule* coreModule = const_cast<qSlicerAbstractCoreModule*>(q->module());
+  QString moduleName = coreModule->name();
+  QString _label = QCoreApplication::translate(moduleName.toLatin1(), moduleParameter.GetLabel().c_str());
+  QString description = QCoreApplication::translate(moduleName.toLatin1(), moduleParameter.GetDescription().c_str());
 
   // TODO Parameters with flags can support the None node because they are optional
   //int noneEnabled = 0;
@@ -308,7 +316,7 @@ void qSlicerCLIModuleWidgetPrivate::addParameter(QFormLayout* _layout,
   QLabel* widgetLabel = new QLabel(_label);
   widgetLabel->setToolTip(description);
 
-  QWidget * widget = this->CLIModuleUIHelper->createTagWidget(moduleParameter);
+  QWidget * widget = this->CLIModuleUIHelper->createTagWidget(coreModule->name(), moduleParameter);
 
   _layout->addRow(widgetLabel, widget);
 }
