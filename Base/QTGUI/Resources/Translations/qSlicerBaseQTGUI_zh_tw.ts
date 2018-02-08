@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="fr_FR">
+<TS version="2.0" language="zh_TW">
 <context>
     <name>QObject</name>
     <message>
         <location filename="../../qSlicerModuleSelectorToolBar.cxx" line="92"/>
         <source>Select a module from the module list</source>
-        <translation type="unfinished"></translation>
+        <translation>從模組清單內選擇模組</translation>
     </message>
     <message>
         <location filename="../../qSlicerModuleSelectorToolBar.cxx" line="99"/>
         <source>Modules</source>
-        <translation type="unfinished"></translation>
+        <translation>模組</translation>
     </message>
     <message>
         <location filename="../../qSlicerModuleSelectorToolBar.cxx" line="106"/>
         <location filename="../../qSlicerModuleSelectorToolBar.cxx" line="110"/>
         <source>Modules history</source>
-        <translation type="unfinished"></translation>
+        <translation>模組歷史紀錄</translation>
     </message>
     <message>
         <location filename="../../qSlicerModulesMenu.cxx" line="89"/>
         <source>All Modules</source>
-        <translation type="unfinished"></translation>
+        <translation>所有模組</translation>
     </message>
     <message>
         <location filename="../../qSlicerMouseModeToolBar.cxx" line="71"/>
@@ -135,7 +135,7 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../../qSlicerApplication.cxx" line="562"/>
         <source>Are you sure you want to restart?</source>
-        <translation type="unfinished"></translation>
+        <translation>是否確定重新啟動應用程式?</translation>
     </message>
 </context>
 <context>
@@ -143,42 +143,42 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../UI/qSlicerDataDialog.ui" line="14"/>
         <source>Add data into the scene</source>
-        <translation type="unfinished"></translation>
+        <translation>新增資料到場景</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerDataDialog.ui" line="20"/>
         <source>Choose Directory to Add</source>
-        <translation type="unfinished"></translation>
+        <translation>新增目錄</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerDataDialog.ui" line="27"/>
         <source>Choose File(s) to Add</source>
-        <translation type="unfinished"></translation>
+        <translation>新增檔案</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerDataDialog.ui" line="90"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>檔案</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerDataDialog.ui" line="95"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>描述</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerDataDialog.ui" line="100"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>選項</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerDataDialog.ui" line="118"/>
         <source>Show Options</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示選項</translation>
     </message>
     <message>
         <location filename="../../qSlicerDataDialog.cxx" line="460"/>
         <source>Any Data</source>
-        <translation type="unfinished"></translation>
+        <translation>任何資料</translation>
     </message>
 </context>
 <context>
@@ -207,21 +207,6 @@ If you have a repeatable sequence of steps that causes this message, </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../UI/qSlicerExtensionsButtonBox.ui" line="142"/>
-        <source>Tell the application to uninstall this extension when it will restart.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerExtensionsButtonBox.ui" line="145"/>
-        <source>Uninstall</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerExtensionsButtonBox.ui" line="105"/>
-        <source>Tell the application to load this extension by adding all associated module paths to the application settings.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../UI/qSlicerExtensionsButtonBox.ui" line="67"/>
         <source>Tell the application to update this extension on restart.</source>
         <translation type="unfinished"></translation>
@@ -242,6 +227,11 @@ If you have a repeatable sequence of steps that causes this message, </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../UI/qSlicerExtensionsButtonBox.ui" line="105"/>
+        <source>Tell the application to load this extension by adding all associated module paths to the application settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../UI/qSlicerExtensionsButtonBox.ui" line="108"/>
         <source>Enable</source>
         <translation type="unfinished"></translation>
@@ -254,6 +244,16 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../UI/qSlicerExtensionsButtonBox.ui" line="118"/>
         <source>Disable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerExtensionsButtonBox.ui" line="142"/>
+        <source>Tell the application to uninstall this extension when it will restart.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerExtensionsButtonBox.ui" line="145"/>
+        <source>Uninstall</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -272,12 +272,12 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../UI/qSlicerExtensionsManagerDialog.ui" line="14"/>
         <source>Extensions Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>擴充管理員</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerExtensionsManagerDialog.ui" line="36"/>
         <source>&lt;font color=&quot;red&quot;&gt;* Restart requested&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;font color=&quot;red&quot;&gt;* 需要重新啟動&lt;/font&gt;</translation>
     </message>
 </context>
 <context>
@@ -285,12 +285,12 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../UI/qSlicerExtensionsManagerWidget.ui" line="14"/>
         <source>Slicer Extensions Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Slicer 擴充管理員</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerExtensionsManagerWidget.ui" line="57"/>
         <source>Install Extensions</source>
-        <translation type="unfinished"></translation>
+        <translation>安裝擴充功能</translation>
     </message>
 </context>
 <context>
@@ -298,17 +298,17 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../UI/qSlicerExtensionsToolsWidget.ui" line="108"/>
         <source>&amp;Check for Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>檢查更新(&amp;C)</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerExtensionsToolsWidget.ui" line="116"/>
         <source>Install Updates &amp;Automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>自動安裝更新(&amp;A)</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerExtensionsToolsWidget.ui" line="121"/>
         <source>&amp;Install Extension from File...</source>
-        <translation type="unfinished"></translation>
+        <translation>從檔案安裝更新(&amp;I)</translation>
     </message>
 </context>
 <context>
@@ -316,12 +316,12 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../../qSlicerIOManager.cxx" line="311"/>
         <source>Select a reader</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇資料讀取工具</translation>
     </message>
     <message>
         <location filename="../../qSlicerIOManager.cxx" line="312"/>
         <source>Select a reader to use for your data?</source>
-        <translation type="unfinished"></translation>
+        <translation>使用哪個資料讀取工具讀取資料?</translation>
     </message>
 </context>
 <context>
@@ -329,22 +329,22 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../UI/qSlicerModelsDialog.ui" line="14"/>
         <source>Add a 3D model</source>
-        <translation type="unfinished"></translation>
+        <translation>新增一個 3D 模型</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerModelsDialog.ui" line="26"/>
         <source>Add Model file(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>新增模型檔案</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerModelsDialog.ui" line="48"/>
         <source>Add Model directory</source>
-        <translation type="unfinished"></translation>
+        <translation>新增模型目錄</translation>
     </message>
     <message>
         <location filename="../../qSlicerModelsDialog.cxx" line="114"/>
         <source>Models</source>
-        <translation type="unfinished"></translation>
+        <translation>模型</translation>
     </message>
 </context>
 <context>
@@ -352,22 +352,22 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../UI/qSlicerModulePanel.ui" line="20"/>
         <source>Module Panel</source>
-        <translation type="unfinished"></translation>
+        <translation>模組功能面板</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerModulePanel.ui" line="77"/>
         <source>Help &amp;&amp; Acknowledgement</source>
-        <translation type="unfinished"></translation>
+        <translation>說明及通知</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerModulePanel.ui" line="93"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>說明</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerModulePanel.ui" line="110"/>
         <source>Acknowledgement</source>
-        <translation type="unfinished"></translation>
+        <translation>通知</translation>
     </message>
 </context>
 <context>
@@ -375,32 +375,32 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../../qSlicerModuleSelectorToolBar.cxx" line="88"/>
         <source>Modules:</source>
-        <translation type="unfinished"></translation>
+        <translation>模組:</translation>
     </message>
     <message>
         <location filename="../../qSlicerModuleSelectorToolBar.cxx" line="108"/>
         <source>History</source>
-        <translation type="unfinished"></translation>
+        <translation>模組歷史紀錄</translation>
     </message>
     <message>
         <location filename="../../qSlicerModuleSelectorToolBar.cxx" line="121"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>上一個</translation>
     </message>
     <message>
         <location filename="../../qSlicerModuleSelectorToolBar.cxx" line="122"/>
         <source>Previous modules</source>
-        <translation type="unfinished"></translation>
+        <translation>上一個模組</translation>
     </message>
     <message>
         <location filename="../../qSlicerModuleSelectorToolBar.cxx" line="138"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <location filename="../../qSlicerModuleSelectorToolBar.cxx" line="139"/>
         <source>Next modules</source>
-        <translation type="unfinished"></translation>
+        <translation>下一個模組</translation>
     </message>
 </context>
 <context>
@@ -421,62 +421,62 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="14"/>
         <source>Save Scene and Unsaved Data</source>
-        <translation type="unfinished"></translation>
+        <translation>儲存場景及未儲存的資料</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="24"/>
         <source>Select scene &amp; modified data only</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇場景及修改的資料</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="54"/>
         <source>File Name</source>
-        <translation type="unfinished"></translation>
+        <translation>檔案名稱</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="59"/>
         <source>File Format</source>
-        <translation type="unfinished"></translation>
+        <translation>檔案格式</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="64"/>
         <source>Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>目錄</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="69"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>選項</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="74"/>
         <source>Node Name</source>
-        <translation type="unfinished"></translation>
+        <translation>節點名稱</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="79"/>
         <source>Node Type</source>
-        <translation type="unfinished"></translation>
+        <translation>節點類型</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="84"/>
         <source>Status</source>
-        <translation type="unfinished"></translation>
+        <translation>狀態</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="102"/>
         <source>Change directory for selected files</source>
-        <translation type="unfinished"></translation>
+        <translation>變更選擇檔案的目錄</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="115"/>
         <source>select modified data only</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇修改的資料</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="135"/>
         <source>Show options</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示選項</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSaveDataDialog.ui" line="142"/>
@@ -486,7 +486,7 @@ If you have a repeatable sequence of steps that causes this message, </source>
     <message>
         <location filename="../../qSlicerSaveDataDialog.cxx" line="1390"/>
         <source>Any Data</source>
-        <translation type="unfinished"></translation>
+        <translation>任何資料</translation>
     </message>
 </context>
 <context>
@@ -659,12 +659,12 @@ Do you want to ignore this error and close saving?</source>
     <message>
         <location filename="../UI/qSlicerSettingsDeveloperPanel.ui" line="14"/>
         <source>Developer</source>
-        <translation type="unfinished"></translation>
+        <translation>開發者</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsDeveloperPanel.ui" line="20"/>
         <source>Enable developer mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用開發者模式</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsDeveloperPanel.ui" line="30"/>
@@ -674,7 +674,7 @@ Do you want to ignore this error and close saving?</source>
     <message>
         <location filename="../UI/qSlicerSettingsDeveloperPanel.ui" line="37"/>
         <source>Enable QtTesting:</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用 QtTesting</translation>
     </message>
 </context>
 <context>
@@ -682,12 +682,12 @@ Do you want to ignore this error and close saving?</source>
     <message>
         <location filename="../UI/qSlicerSettingsExtensionsPanel.ui" line="14"/>
         <source>Extensions</source>
-        <translation type="unfinished"></translation>
+        <translation>擴充功能</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsExtensionsPanel.ui" line="28"/>
         <source>Enable extension manager:</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用擴充功能管理員: </translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsExtensionsPanel.ui" line="45"/>
@@ -702,7 +702,7 @@ Do you want to ignore this error and close saving?</source>
     <message>
         <location filename="../UI/qSlicerSettingsExtensionsPanel.ui" line="83"/>
         <source>Open Extension Manager...</source>
-        <translation type="unfinished"></translation>
+        <translation>開啟擴充功能管理員...</translation>
     </message>
 </context>
 <context>
@@ -710,62 +710,62 @@ Do you want to ignore this error and close saving?</source>
     <message>
         <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="14"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="33"/>
-        <source>Disable splash screen:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="74"/>
-        <source>Confirm on exit:</source>
-        <translation type="unfinished"></translation>
+        <translation>一般設定</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="20"/>
         <source>Directory where scenes are saved to by default</source>
-        <translation type="unfinished"></translation>
+        <translation>場景預設的儲存目錄</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="23"/>
         <source>Default scene location:</source>
-        <translation type="unfinished"></translation>
+        <translation>場景預設路徑:</translation>
     </message>
     <message>
-        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="57"/>
-        <source>Confirm on restart:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="91"/>
-        <source>Slicer Wiki URL:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="114"/>
-        <source>Max. number of &apos;Recently Loaded&apos; menu items:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="121"/>
-        <source>Python script that is executed after the application is started</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="124"/>
-        <source>Application startup script:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="146"/>
-        <source>Open Slicer resource file</source>
-        <translation type="unfinished"></translation>
+        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="33"/>
+        <source>Disable splash screen:</source>
+        <translation>關閉啟動顯示畫面</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="50"/>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>語言</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="57"/>
+        <source>Confirm on restart:</source>
+        <translation>重新啟動確認</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="74"/>
+        <source>Confirm on exit:</source>
+        <translation>系統關閉確認</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="91"/>
+        <source>Slicer Wiki URL:</source>
+        <translation>Slicer Wiki 網址:</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="114"/>
+        <source>Max. number of &apos;Recently Loaded&apos; menu items:</source>
+        <translation>最近讀取檔案的最大項目數量</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="121"/>
+        <source>Python script that is executed after the application is started</source>
+        <translation>程式啟動後執行的 Python 指令檔</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="124"/>
+        <source>Application startup script:</source>
+        <translation>應用程式啟動指令檔: </translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsGeneralPanel.ui" line="146"/>
+        <source>Open Slicer resource file</source>
+        <translation>開啟 Slicer 資源檔</translation>
     </message>
 </context>
 <context>
@@ -773,12 +773,12 @@ Do you want to ignore this error and close saving?</source>
     <message>
         <location filename="../UI/qSlicerSettingsInternationalizationPanel.ui" line="14"/>
         <source>Internationalization</source>
-        <translation type="unfinished"></translation>
+        <translation>國際化選項</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsInternationalizationPanel.ui" line="20"/>
         <source>Enable Internationalization:</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用國際化</translation>
     </message>
 </context>
 <context>
@@ -786,183 +786,7 @@ Do you want to ignore this error and close saving?</source>
     <message>
         <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="12"/>
         <source>Module</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="217"/>
-        <source>Show hidden modules:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="261"/>
-        <source>Temporary directory:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="289"/>
-        <source>Additional module paths:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="330"/>
-        <source>Paths</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="336"/>
-        <source>Add</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="343"/>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="803"/>
-        <source>Remove</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="385"/>
-        <source>when checking/unchecking a module, its dependencies are checked/unchecked accordingly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="388"/>
-        <source>Modules:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="444"/>
-        <source>Filter</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="453"/>
-        <source>Hide modules to load at startup</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="456"/>
-        <source>To load</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="475"/>
-        <source>Hide modules to ignore at startup</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="478"/>
-        <source>To ignore</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="497"/>
-        <source>Hide loaded modules</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="500"/>
-        <source>Loaded</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="550"/>
-        <source>Hide ignored modules</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="553"/>
-        <source>Ignored</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="603"/>
-        <source>Hide Failed to load modules</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="606"/>
-        <source>Failed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="667"/>
-        <source>Default startup module:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="711"/>
-        <source>Add to the list by dragging modules from the above &quot;Modules&quot; list. Note: modules with no icons will not appear in the toolbar.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="714"/>
-        <source>Favorite Modules:&lt;br&gt;&lt;small&gt;&lt;i&gt;Drag &amp;amp; drop from &lt;/i&gt;Modules&lt;i&gt; list&lt;/i&gt;&lt;/small&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="791"/>
-        <source>Add to the list by dragging modules from the above &quot;Modules&quot; list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="794"/>
-        <source>Favorite</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="800"/>
-        <source>Remove selected module from favorites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="810"/>
-        <source>Move to the left</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="813"/>
-        <source>Move Left</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="820"/>
-        <source>Move to the right</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="823"/>
-        <source>Move Right</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="170"/>
-        <source>To limit memory consumption, loading executable CLIs is prefered as they don&apos;t load in Slicer&apos;s memory</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="131"/>
-        <source>To temporarilly disable, pass --disable-builtin-loadable-modules on the command line</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="141"/>
-        <source>To temporarily disable, pass --disable-builtin-cli-modules on the command line</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="151"/>
-        <source>To temporarily disable, pass  --disable-builtin-scripted-loadable-modules on the command line</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="173"/>
-        <source>Prefer Executable CLIs:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="77"/>
-        <source>To temporarilly disable, pass --disable-loadable-modules on the command line</source>
-        <translation type="unfinished"></translation>
+        <translation>模組</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="36"/>
@@ -972,6 +796,11 @@ Do you want to ignore this error and close saving?</source>
     <message>
         <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="49"/>
         <source>Skip loading of any:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="77"/>
+        <source>To temporarilly disable, pass --disable-loadable-modules on the command line</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1003,9 +832,180 @@ Do you want to ignore this error and close saving?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="131"/>
+        <source>To temporarilly disable, pass --disable-builtin-loadable-modules on the command line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="141"/>
+        <source>To temporarily disable, pass --disable-builtin-cli-modules on the command line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="151"/>
+        <source>To temporarily disable, pass  --disable-builtin-scripted-loadable-modules on the command line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="170"/>
+        <source>To limit memory consumption, loading executable CLIs is prefered as they don&apos;t load in Slicer&apos;s memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="173"/>
+        <source>Prefer Executable CLIs:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="217"/>
+        <source>Show hidden modules:</source>
+        <translation>顯示隱藏的模組</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="261"/>
+        <source>Temporary directory:</source>
+        <translation>暫存目錄</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="289"/>
+        <source>Additional module paths:</source>
+        <translation>額外的模組載入路徑</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="330"/>
+        <source>Paths</source>
+        <translation>路徑</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="336"/>
+        <source>Add</source>
+        <translation>新增</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="343"/>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="803"/>
+        <source>Remove</source>
+        <translation>移除</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="385"/>
+        <source>when checking/unchecking a module, its dependencies are checked/unchecked accordingly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="388"/>
+        <source>Modules:</source>
+        <translation>模組清單:</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="444"/>
+        <source>Filter</source>
+        <translation>塞選</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="453"/>
+        <source>Hide modules to load at startup</source>
+        <translation>隱藏程式啟始時載入的模組</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="456"/>
+        <source>To load</source>
+        <translation>載入模組</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="475"/>
+        <source>Hide modules to ignore at startup</source>
+        <translation>隱藏程式啟始時忽略的模組</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="478"/>
+        <source>To ignore</source>
+        <translation>忽略模組</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="497"/>
+        <source>Hide loaded modules</source>
+        <translation>隱藏已載入的模組</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="500"/>
+        <source>Loaded</source>
+        <translation>已載入</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="550"/>
+        <source>Hide ignored modules</source>
+        <translation>隱藏已忽略的模組</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="553"/>
+        <source>Ignored</source>
+        <translation>已忽略</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="603"/>
+        <source>Hide Failed to load modules</source>
+        <translation>隱藏載入失敗的模組</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="606"/>
+        <source>Failed</source>
+        <translation>已失敗</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="667"/>
+        <source>Default startup module:</source>
+        <translation>啟動後的預設模組</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="711"/>
+        <source>Add to the list by dragging modules from the above &quot;Modules&quot; list. Note: modules with no icons will not appear in the toolbar.</source>
+        <translation>從上面的模組清單拖拉到清單內來新增。請注意: 沒有圖示的模組不會顯示在工具列中。</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="714"/>
+        <source>Favorite Modules:&lt;br&gt;&lt;small&gt;&lt;i&gt;Drag &amp;amp; drop from &lt;/i&gt;Modules&lt;i&gt; list&lt;/i&gt;&lt;/small&gt;</source>
+        <translation type="unfinished">最愛模組清單:&lt;br&gt;&lt;small&gt;&lt;i&gt;從模組清單拖拉過來&lt;/i&gt;&lt;/small&gt;</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="791"/>
+        <source>Add to the list by dragging modules from the above &quot;Modules&quot; list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="794"/>
+        <source>Favorite</source>
+        <translation>最愛的模組</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="800"/>
+        <source>Remove selected module from favorites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="810"/>
+        <source>Move to the left</source>
+        <translation>移到左邊</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="813"/>
+        <source>Move Left</source>
+        <translation>移到左邊</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="820"/>
+        <source>Move to the right</source>
+        <translation>移到右邊</translation>
+    </message>
+    <message>
+        <location filename="../UI/qSlicerSettingsModulesPanel.ui" line="823"/>
+        <source>Move Right</source>
+        <translation>移到右邊</translation>
+    </message>
+    <message>
         <location filename="../../qSlicerSettingsModulesPanel.cxx" line="309"/>
         <source>Select folder</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇目錄</translation>
     </message>
 </context>
 <context>
@@ -1018,67 +1018,67 @@ Do you want to ignore this error and close saving?</source>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="20"/>
         <source>Shell Display</source>
-        <translation type="unfinished"></translation>
+        <translation>命令列顯示設定</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="32"/>
         <source>Background color:</source>
-        <translation type="unfinished"></translation>
+        <translation>背景顏色:</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="49"/>
         <source>Prompt color:</source>
-        <translation type="unfinished"></translation>
+        <translation>提示字元顏色:</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="59"/>
         <source>Output text color:</source>
-        <translation type="unfinished"></translation>
+        <translation>文字輸出顏色:</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="69"/>
         <source>Error text color:</source>
-        <translation type="unfinished"></translation>
+        <translation>錯誤訊息顏色:</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="79"/>
         <source>Standard input text color:</source>
-        <translation type="unfinished"></translation>
+        <translation>標準輸入字元顏色:</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="89"/>
         <source>Command text color:</source>
-        <translation type="unfinished"></translation>
+        <translation>命令字串顏色:</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="99"/>
         <source>Welcome text color:</source>
-        <translation type="unfinished"></translation>
+        <translation>歡迎文字顏色:</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="116"/>
         <source>Scrollbar is:</source>
-        <translation type="unfinished"></translation>
+        <translation>卷軸:</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="124"/>
         <source>Visible if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>如果需要時顯示</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="129"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="134"/>
         <source>Always visible</source>
-        <translation type="unfinished"></translation>
+        <translation>總是可視</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="142"/>
         <source>Shell font:</source>
-        <translation type="unfinished"></translation>
+        <translation>命令列字型:</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsPythonPanel.ui" line="156"/>
@@ -1106,7 +1106,7 @@ Do you want to ignore this error and close saving?</source>
     <message>
         <location filename="../UI/qSlicerSettingsStylesPanel.ui" line="49"/>
         <source>Paths</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">路徑</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsStylesPanel.ui" line="55"/>
@@ -1122,7 +1122,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../UI/qSlicerSettingsStylesPanel.ui" line="64"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">新增</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsStylesPanel.ui" line="71"/>
@@ -1138,7 +1138,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../UI/qSlicerSettingsStylesPanel.ui" line="80"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">移除</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerSettingsStylesPanel.ui" line="103"/>
@@ -1360,7 +1360,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../qSlicerFileDialog.cxx" line="298"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>選項</translation>
     </message>
 </context>
 <context>
