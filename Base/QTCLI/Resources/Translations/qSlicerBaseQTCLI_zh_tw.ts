@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="fr_FR">
+<TS version="2.0" language="zh_TW">
 <context>
     <name>QObject</name>
     <message>
@@ -24,12 +24,12 @@
     <message>
         <location filename="../UI/qSlicerCLIModuleWidget.ui" line="14"/>
         <source>Module</source>
-        <translation type="unfinished"></translation>
+        <translation>模組</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerCLIModuleWidget.ui" line="47"/>
         <source>Module Title</source>
-        <translation type="unfinished"></translation>
+        <translation>模組標題</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerCLIModuleWidget.ui" line="59"/>
@@ -39,42 +39,42 @@
     <message>
         <location filename="../UI/qSlicerCLIModuleWidget.ui" line="70"/>
         <source>Parameter set:</source>
-        <translation type="unfinished"></translation>
+        <translation>參數</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerCLIModuleWidget.ui" line="104"/>
         <source>Reset parameters to default.</source>
-        <translation type="unfinished"></translation>
+        <translation>重設參數回預設值</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerCLIModuleWidget.ui" line="107"/>
         <source>Restore Defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>恢復預設值</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerCLIModuleWidget.ui" line="117"/>
         <source>AutoRun</source>
-        <translation type="unfinished"></translation>
+        <translation>自動執行</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerCLIModuleWidget.ui" line="143"/>
         <source>Cancel the execution of the module</source>
-        <translation type="unfinished"></translation>
+        <translation>取消模組的執行</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerCLIModuleWidget.ui" line="146"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerCLIModuleWidget.ui" line="156"/>
         <source>Execute the module</source>
-        <translation type="unfinished"></translation>
+        <translation>執行模組</translation>
     </message>
     <message>
         <location filename="../UI/qSlicerCLIModuleWidget.ui" line="159"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>套用</translation>
     </message>
 </context>
 <context>
@@ -82,7 +82,7 @@
     <message>
         <location filename="../../qSlicerCLIModuleWidget.cxx" line="98"/>
         <source>AutoRun</source>
-        <translation type="unfinished"></translation>
+        <translation>自動執行</translation>
     </message>
     <message>
         <location filename="../../qSlicerCLIModuleWidget.cxx" line="101"/>
