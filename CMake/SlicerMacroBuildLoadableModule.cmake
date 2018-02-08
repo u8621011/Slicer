@@ -180,14 +180,62 @@ macro(slicerMacroBuildLoadableModule)
     )
 
   # --------------------------------------------------------------------------
+  # Translation
+  # --------------------------------------------------------------------------
+  if(Slicer_BUILD_I18N_SUPPORT)
+    set(TS_DIR
+      "${CMAKE_CURRENT_SOURCE_DIR}/Resources/Translations/"
+    )
+    get_property(Slicer_LANGUAGES GLOBAL PROPERTY Slicer_LANGUAGES)
+
+
+    # Check translation file existence.
+    set(TS_FILE_EXIST TRUE)
+    foreach(language ${Slicer_LANGUAGES})
+      if(NOT EXISTS "${TS_DIR}${LOADABLEMODULE_NAME}_${language}.ts")
+        message(STATUS "[DTC] ${TS_DIR}${LOADABLEMODULE_NAME}_${language}.ts exist")
+
+        SET(TS_FILE_EXIST FALSE)
+        break()
+      endif()
+    endforeach()
+
+    if(TS_FILE_EXIST)
+      include(SlicerMacroTranslation)
+      SlicerMacroTranslation(
+        SRCS ${LOADABLEMODULE_SRCS}
+        UI_SRCS ${LOADABLEMODULE_UI_SRCS}
+        TS_DIR ${TS_DIR}
+        TS_BASEFILENAME ${LOADABLEMODULE_NAME}
+        TS_LANGUAGES ${Slicer_LANGUAGES}
+        QM_OUTPUT_DIR_VAR QM_OUTPUT_DIR
+        QM_OUTPUT_FILES_VAR QM_OUTPUT_FILES
+        )
+
+      set_property(GLOBAL APPEND PROPERTY Slicer_QM_OUTPUT_DIRS ${QM_OUTPUT_DIR})
+    endif()
+
+  endif()
+
+  # --------------------------------------------------------------------------
   # Build library
   #-----------------------------------------------------------------------------
-  add_library(${lib_name}
-    ${LOADABLEMODULE_SRCS}
-    ${LOADABLEMODULE_MOC_OUTPUT}
-    ${LOADABLEMODULE_UI_CXX}
-    ${LOADABLEMODULE_QRC_SRCS}
-    )
+  if(Slicer_BUILD_I18N_SUPPORT AND TS_FILE_EXIST)
+    add_library(${lib_name}
+      ${LOADABLEMODULE_SRCS}
+      ${LOADABLEMODULE_MOC_OUTPUT}
+      ${LOADABLEMODULE_UI_CXX}
+      ${LOADABLEMODULE_QRC_SRCS}
+      ${QM_OUTPUT_FILES}
+      )
+  else()
+    add_library(${lib_name}
+      ${LOADABLEMODULE_SRCS}
+      ${LOADABLEMODULE_MOC_OUTPUT}
+      ${LOADABLEMODULE_UI_CXX}
+      ${LOADABLEMODULE_QRC_SRCS}
+      )
+  endif()
 
   # Set loadable modules output path
   set_target_properties(${lib_name} PROPERTIES
